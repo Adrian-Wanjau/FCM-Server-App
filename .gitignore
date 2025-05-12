@@ -1,0 +1,52 @@
+# Firebase/Google Cloud credentials
+service-account.json
+*.p8
+*.pem
+*.key
+credentials.json
+firebase-adminsdk*.json
+
+# Build directories
+target/
+build/
+out/
+dist/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven specific
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
